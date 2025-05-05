@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title("📊 Magnificent 7 Stock Prices with Technical Analysis")
 
 # Load Data
-df = pd.read_excel("magnificent7.xlsx", parse_dates=["Date"])
+df = pd.read_excel("magnificent_7.xlsx", parse_dates=["Date"])
 df.set_index("Date", inplace=True)
 
 # Stock selection
